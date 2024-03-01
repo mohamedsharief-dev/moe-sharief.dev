@@ -2,6 +2,17 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+p {
+    font-size: 1em;
+    font-weight: 300;
+}
+
 .navbar {
     display: flex;
     width: 100%;
@@ -54,7 +65,7 @@ body {
 }
 
 .navbar-logo {
-    width: 150px;
+    width: 180px;
     float: left;
     margin-right: 100px;
 }
@@ -188,3 +199,28 @@ body {
     gap: 20px;
     margin-top: 60px;
 }
+
+.section {
+    background-color: #343a40;
+    /* Example color */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.section-text {
+    max-width: 50%;
+    /* Adjust as needed */
+}
+
+.section-image img {
+    max-width: 100%;
+    /* Adjust as needed */
+    height: auto;
+    border-radius: 4px
+}
+
+/* Style the button as needed */
