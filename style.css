@@ -169,8 +169,8 @@ p {
 }
 
 .hero-text p {
-    font-size: 1em;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 200;
     color: #343a40;
 }
 
@@ -206,13 +206,15 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
     padding: 20px;
     border-radius: 6px;
 }
 
 .section-text {
     max-width: 50%;
+    height: 90px;
+    font-weight: 200;
     /* Adjust as needed */
 }
 
