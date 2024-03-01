@@ -1,5 +1,17 @@
 body {
     font-family: "Roboto", sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-smooth: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
 }
 
 h2 {
@@ -181,7 +193,7 @@ p {
 }
 
 .hero-image img {
-    width: 80%;
+    width: 70%;
     height: auto;
 }
 
