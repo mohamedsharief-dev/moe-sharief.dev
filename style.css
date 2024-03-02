@@ -7,6 +7,33 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+@media screen and (max-width: 767px) {
+    body {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbar-left,
+    .navbar-right {
+        display: none;
+    }
+
+    .navbar-logo {
+        margin-right: 0;
+    }
+
+    .whole-nav {
+        display: none;
+    }
+}
+
+
+
+
 @media screen and (min-width: 1500px) {
     body {
         padding-left: 240px;
@@ -196,7 +223,6 @@ p {
 .hero-image img {
     width: 83%;
     height: auto;
-    border-radius: 4px;
 }
 
 .hero-text .text-columns>div {

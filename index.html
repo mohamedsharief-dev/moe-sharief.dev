@@ -27,6 +27,7 @@
                         style="width: 25px; margin-left: 5px;" src="media/arrow white.png" alt=""></a>
             </div>
         </div>
+
     </section>
     <section class="hero-section1">
         <!-- This is your hero container -->
@@ -62,7 +63,9 @@
             <!-- This is your image container -->
             <div class="hero-image">
                 <!-- Put your abstract image here -->
-                <img src="/media/81027.jpg" alt="Abstract Art">
+                <div style="width: 100%; height: auto;" id="canvas3d">
+
+                </div>
             </div>
         </div>
 
@@ -134,6 +137,15 @@
         </div>
         <!-- Add other grid items here -->
     </div>
+
+    <script>
+        import { Application } from '@splinetool/runtime';
+
+        const canvas = document.getElementById('canvas3d');
+        const app = new Application(canvas);
+        app.load('https://prod.spline.design/wNrmo0wSliSAL4uQ/scene.splinecode');
+
+    </script>
 
 
 </body>
