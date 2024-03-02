@@ -42,14 +42,21 @@ body {
 }
 
 h2 {
-    font-size: 1.5em;
-    font-weight: 600;
+    font-size: 1.4em;
+    font-weight: 500;
     font-family: "Roboto", sans-serif;
 }
 
 p {
     font-size: 1em;
     font-weight: 300;
+}
+
+h3 {
+    font-size: 1.3em;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+
 }
 
 .navbar {
@@ -129,6 +136,25 @@ p {
     padding: 5px 10px;
 }
 
+.invert {
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    border: 1px solid #000000;
+    padding: 8px;
+    border-radius: 4px;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 60px;
+}
+
+.invert:hover {
+    background-color: #eaeaea;
+
+}
+
+
+
 .light-button {
     display: flex;
     justify-content: center;
@@ -169,7 +195,7 @@ p {
 .hero {
     display: grid;
     grid-template-columns: 60% 40%;
-    height: 500px;
+    height: 70vh;
     margin: 20px 0;
     padding-left: 10px;
     padding-right: 10px;
@@ -189,14 +215,14 @@ p {
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    gap: 50px;
+    /* gap: 50px; */
 
 }
 
 .hero-text h1 {
-    font-size: 3em;
+    font-size: 2.3em;
     font-weight: 600;
-    color: #343a40;
+    color: #4b4b4b;
     font-family: "Roboto", sans-serif;
 }
 
